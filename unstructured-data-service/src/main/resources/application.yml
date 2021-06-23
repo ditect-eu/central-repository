@@ -1,0 +1,23 @@
+server:
+  port: 8091
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: ERROR
+#    org.springframework.data.mongodb: DEBUG
+    org.hibernate: ERROR
+
+
+spring:
+  data:
+    mongodb.:
+      host: localhost
+      port: 27017
+      database: ditect
+      username: root
+      password: rootpassword
+      authentication-database: admin
+
+kafka:
+  bootstrap-address: "localhost:9092"
