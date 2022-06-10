@@ -1,2 +1,2 @@
 # central-repository
-The central repository containing all food supply chain data.
+The central repository contains Food safety related food supply chain data.
